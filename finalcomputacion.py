@@ -2,8 +2,38 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #89ac76;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-st.title('Supervisión y Gestión para Huertas Urbanas en Pro de la Seguridad Alimentaria')
+st.markdown(
+    """
+    <style>
+    h1 {
+        color: #1f77b4;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h2 {
+        color: #1f77b4;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h3 {
+        color: #1f77b4;
+        font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.title('Supervisión y Gestión para Huertas Urbanas')
 image = Image.open('temperatura.png')
 st.image(image)
 
