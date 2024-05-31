@@ -28,7 +28,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('Monitoreo y Administración de Huertos Urbanos para la Seguridad Alimentaria')
+st.title(' Supervisión para Huertas Urbanas')
 image = Image.open('temperatura.png')
 st.image(image)
 
