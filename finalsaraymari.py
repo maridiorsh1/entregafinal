@@ -2,17 +2,25 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-# Cambia el color de la página a gris y la tipografía
+# Cambia el color de la página a gris y la tipografía de los títulos
 st.markdown(
     """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
     body {
         background-color: #638270;
+    }
+    h1 {
+        color: #1f77b4;
         font-family: 'Montserrat', sans-serif;
     }
-    h1, h2, h3 {
-        color: #1f77b4;
+    h2 {
+        color: #ff7f0e;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h3 {
+        color: #2ca02c;
+        font-family: 'Montserrat', sans-serif;
     }
     </style>
     """,
