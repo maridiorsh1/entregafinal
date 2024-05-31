@@ -12,15 +12,15 @@ st.markdown(
         font-family: 'Montserrat', sans-serif;
  }
     h1 {
-        color: #1f77b4;
+        color: #57a16e;
         font-family: 'Montserrat', sans-serif;
     }
     h2 {
-        color: #ff7f0e;
+        color: #79a8a0;
         font-family: 'Montserrat', sans-serif;
     }
     h3 {
-        color: #2ca02c;
+        color: #5c9fab;
         font-family: 'Montserrat', sans-serif;
     }
     </style>
