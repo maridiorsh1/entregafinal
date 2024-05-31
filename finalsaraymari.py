@@ -1,13 +1,18 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-# Cambia el color de la página a gris
 st.markdown(
     """
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
     body {
         background-color: #638270;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1, h2, h3 {
+        color: #1f77b4;
     }
     </style>
     """,
@@ -27,7 +32,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('Monitoreo y Administración de Huertos Urbanos para la Seguridad Alimentaria')
+st.title('Supervisión y Gestión para Huertas Urbanas')
 image = Image.open('temperatura.png')
 st.image(image)
 
