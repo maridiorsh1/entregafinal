@@ -7,7 +7,7 @@ st.markdown(
     """
     <style>
     body {
-        background-color: #f0f0f0;
+        background-color: 638270;
     }
     </style>
     """,
@@ -20,15 +20,15 @@ st.markdown(
     <style>
     h1 {
         color: #1f77b4;
-        font-family: 'Arial', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
     h2 {
         color: #1f77b4;
-        font-family: 'Arial', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
     h3 {
         color: #1f77b4;
-        font-family: 'Arial', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
     </style>
     """,
