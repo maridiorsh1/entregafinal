@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"
-
+# Cambia el color de la página a gris y la tipografía
 st.markdown(
     """
     <style>
@@ -20,20 +19,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Cambia la tipografía y los colores de las barras por azul
-st.markdown(
-    """
-    <style>
-    h1, h2, h3 {
-        color: #1f77b4;
-        font-family: 'Montserrat', sans-serif;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-st.title('Supervisión y Gestión para Huertas Urbanas')
+st.title('Monitoreo y Administración de Huertos Urbanos para la Seguridad Alimentaria')
 image = Image.open('temperatura.png')
 st.image(image)
 
@@ -67,3 +53,4 @@ if uploaded_file is not None:
    st.write(filtrado_df_max)
 else:
    st.warning('Es necesario cargar un archivo CSV o Excel.')
+
