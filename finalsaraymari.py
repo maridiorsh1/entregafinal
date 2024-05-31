@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"
 
 st.markdown(
     """
